@@ -1,0 +1,39 @@
+body{
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0%;
+}
+.friends{
+    background-color: aqua;
+}
+#food{
+    background-color: rgb(203, 143, 52);
+}
+img{
+    border-radius: 10px;
+}
+.container{
+    margin-top: 100px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(225, 225, 225, 0.7);
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

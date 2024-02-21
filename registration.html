@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Username & Password</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="img/x-icon" href="images/logo.icon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+        <form action="index.html">
+            <h1>Registration form</h1>
+            <label for="lastname">Lastname</label><br>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+            <label for="firstname">Firstname</label><br>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+            <label for="middlename">Middlename</label><br>
+            <input type="text" id="middlename" name="middlename" required><br><br>
+           
+            <h3>Gender</h3>
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option></option>
+                <option 
+                value="M">Male</option>
+                <option
+                value="F">Female</option>
+                <option
+                value="N">Prefer not to say.</option>
+            </select required>
+           <br><br>
+           <h3>Date of Birth</h3>
+           <input type="date" id="dob" name="dob"><br><br>
+           <h3>Upload your ID here</h3>
+           <input type="file" accept=".jpg,.jpeg,.png" id="schoolid"><br><br>
+            <h3>Programming Languages</h3>
+            <input type="checkbox" id="programming1" name="programming1" value="JavaScript">
+            <label for="programming">JavaScript</label><br>
+            <input type="checkbox" id="programming2" name="programming2" value="Python">
+            <label for="programming">Python</label><br>
+            <input type="checkbox" id="programming3" name="programming3" value="Kotlin">
+            <label for="programming">Kotlin</label>
+       <br><br>
+       <h3>Set Password</h3>
+            <label for="username">Username</label><br>
+            <input type="text" id="username" name="Username" required><br><br>
+            <label for="new"> New Password</label><br>
+            <input type="password" id="new" name="New Password" required><br><br>
+            <label for="confirm">Confirm Password</label><br>
+            <input type="password" id="confirm" name="Confirm Password" required><br><br>
+            <button >Register Now</button>
+            <p>Already have an Account?</p>
+            <a href="Login.html">Login Here</a>
+        </form>
+        </div>
+      
+       
+    </body>
+</html>
